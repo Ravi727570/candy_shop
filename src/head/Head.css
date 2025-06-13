@@ -1,0 +1,18 @@
+.saveDatas {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn1 {
+  padding: 4px 8px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #0056b3;
+}
