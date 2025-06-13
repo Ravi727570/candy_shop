@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css';
 
-const Cart = ({ count }) => {
+const Cart = ({ count, totalAmount }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -12,8 +12,8 @@ const Cart = ({ count }) => {
 
       {isOpen && (
         <div className="cart-content">
-          <h3>Total Items in Cart: {count}</h3>
-          {/* You can show more detail here later */}
+          
+          <h3>Total Amount: ₹{totalAmount.toFixed(2)}</h3>
         </div>
       )}
     </div>
